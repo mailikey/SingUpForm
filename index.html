@@ -8,9 +8,15 @@
 
     <meta charset="UTF-8">
     <title>SingUp</title>
+    <script>
+        function isEmail() {
+           console.log( document.getElementById("button"));
+                   }
+    </script>
+
 </head>
-<body>
- <div class="background">
+<body style="background-color:#e2f5f7;">
+   <div class="background">
      <div class="all-form">
          <div class="logo">
            <img src="img/Logo.png">
@@ -33,7 +39,7 @@
 
                               <div class="batton">
                               <div class="button-green">
-                                  <div class="sing-up-today">
+                                  <div class="sing-up-today" id="button" onclick="isEmail()">
                                   Notifiy me
                                       </div>
                               </div>
@@ -46,8 +52,8 @@
 
                              </div>
                              <div class="batton">
-                               <div class="button-orange">
-                                    <div class="sing-up-today">
+                               <div  class="button-orange">
+                                    <div class="sing-up-today" id="button" onclick="isEmail()">
                                    Sign up today
                                     </div>
                                </div>
